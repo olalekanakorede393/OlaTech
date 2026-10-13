@@ -425,3 +425,50 @@ footer p {
 .contact-btn:hover {
     transform: translateY(-4px);
 }
+
+.section-text {
+    max-width: 650px;
+    margin: auto;
+    font-size: 17px;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.service-box {
+    width: 48%;
+    padding: 40px 30px;
+    background-color: #102d55;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.service-icon {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.service-box h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.service-box p {
+    color: #d9e5f5;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 700px) {
+
+    .service-box {
+        width: 100%;
+    }
+}
